@@ -109,7 +109,7 @@ for i in range(len(predictions)):
   else:
     x.append(1)
 answers = np.array(x)
-answers
+print(answers)
 
 #Plot confusion matrix
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
