@@ -7,5 +7,4 @@ Change the paths in the file to the directory above.
 Run code.
 
 How to run on new images:
-Put your images in the test directory.
-Run the program. An output of 0 indicate cat and an output of 1 indicates dog.
+Load, compile and train the model. Then run the code "predictions = model.predict(reshaped, verbose=0)". An output of 0 indicate cat and an output of 1 indicates dog.
